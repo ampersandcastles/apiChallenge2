@@ -41,5 +41,9 @@ fetchData();
 
 function displayPrice(list) {
   let array = Object.entries(list.rates);
-  console.log(array);
+  for (let i in list.rates) {
+    select.appendChild(option);
+    document.querySelector("option");
+    option.innerHTML = i;
+  }
 }
