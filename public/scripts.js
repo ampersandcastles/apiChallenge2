@@ -2,7 +2,7 @@
 
 // variables needed for fetch
 const apiKey = "5f5ec626ea1831755e448594a5e786ec";
-const url = "http://api.coinlayer.com/api/live?access_key=";
+const url = "https://api.coinlayer.com/api/live?access_key=";
 const urlAddition = "&symbols=";
 let tickerName; // People use $XBT for $BTC
 const apiUrl = url + apiKey;
