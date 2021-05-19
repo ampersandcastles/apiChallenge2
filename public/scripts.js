@@ -58,18 +58,3 @@ const handleChange = (e) => {
     selectValue.options[selectValue.selectedIndex].id;
 };
 console.log(selectValue.value);
-// for (let i in asset) {
-//   let option = document.createElement("option");
-//   select.appendChild(option);
-//   option.innerText = asset[i];
-//   option.id = asset[i];
-
-//   option.addEventListener("click", displayData(option.id));
-// }
-
-// function displayData(value) {
-//   console.log("Clicked", value);
-//   let cost = Object.entries(value);
-//   // console.log(cost);
-//   document.querySelector(".output").textContent = cost;
-// }
