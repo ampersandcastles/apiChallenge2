@@ -6,4 +6,4 @@ Construcing a page using the Coinlayer API to display current costs of various a
 
 I deployed this code to Firebase and found I needed to use https which is fine. Unfortunately, it seems that coinlayer's api restricts https access on a free account.
 
-(https://github.com/tristanlearns/apiChallenge2/blob/main/public/assets/https_screenshot.png)
+!(https://github.com/tristanlearns/apiChallenge2/blob/main/public/assets/https_screenshot.png)
